@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import Link from "next/link";
 import navLinks from "@/lib/NavLinks";
+import { Button } from "../ui/button";
 
 const Navbar = () => {
   return (
@@ -22,6 +23,8 @@ const Navbar = () => {
             ))}
           </div>
         </div>
+        {/* Right Container */}
+        <Button> Hello</Button>
       </div>
     </div>
   );
