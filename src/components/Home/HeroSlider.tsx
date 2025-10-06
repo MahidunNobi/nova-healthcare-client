@@ -13,7 +13,7 @@ import Container from "../Container/Container";
 const HeroSlider = () => {
   return (
     <Container>
-      <div className="my-6">
+      <div className="my-8">
         <Swiper
           pagination={true}
           modules={[Pagination]}
