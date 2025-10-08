@@ -40,7 +40,7 @@ const statsData = [
 
 const Stats = () => {
   return (
-    <div className="my-6 py-16 bg-cyan-100/40">
+    <div className="my-6 py-8 bg-cyan-100/40">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {statsData.map((stat) => (
