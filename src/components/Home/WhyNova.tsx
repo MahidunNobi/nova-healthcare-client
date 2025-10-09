@@ -6,6 +6,7 @@ const WhyNova = () => {
   return (
     <Container>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:items-center">
+        {/* ----Image---- */}
         <div>
           <Image
             src="/home/Why_DocTime.webp"
@@ -15,6 +16,7 @@ const WhyNova = () => {
             className="object-cover w-auto"
           />
         </div>
+        {/* ----Image---- */}
         <div className="flex flex-col gap-6">
           <span className="text-cyan-500 font-semibold">
             Why Nova health care?

@@ -1,4 +1,5 @@
 import HeroSlider from "@/components/Home/HeroSlider";
+import OnlineHealthcare from "@/components/Home/OnlineHealthcare";
 import Searchbar from "@/components/Home/Searchbar";
 import Services from "@/components/Home/Services";
 import Stats from "@/components/Home/Stats";
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Services />
       <Stats />
       <WhyNova />
+      <OnlineHealthcare />
     </div>
   );
 };
