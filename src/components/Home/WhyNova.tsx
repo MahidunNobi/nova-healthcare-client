@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../Container/Container";
 import Image from "next/image";
+import Subtitle from "../Common/Subtitle";
 
 const WhyNova = () => {
   return (
@@ -18,9 +19,7 @@ const WhyNova = () => {
         </div>
         {/* ----Image---- */}
         <div className="flex flex-col gap-6">
-          <span className="text-cyan-500 font-semibold">
-            Why Nova health care?
-          </span>
+          <Subtitle>Why Nova health care?</Subtitle>
           <h1 className="text-4xl md:text-5xl font-extrabold leading-12 md:leading-16">
             Bangladesh&apos;s leading healthcare app for online doctor
             consultation
