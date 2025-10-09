@@ -4,7 +4,7 @@ import Container from "../Container/Container";
 
 const Searchbar = () => {
   return (
-    <Container>
+    <Container addClass="my-0!">
       <Input
         type="text"
         placeholder="Search"
