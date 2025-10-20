@@ -1,4 +1,5 @@
 import AvailableSpecialists from "@/components/Home/AvailableSpecialists";
+import BuyMedicines from "@/components/Home/BuyMedicines";
 import HeroSlider from "@/components/Home/HeroSlider";
 import OnlineHealthcare from "@/components/Home/OnlineHealthcare";
 import Searchbar from "@/components/Home/Searchbar";
@@ -17,6 +18,7 @@ const HomePage = () => {
       <WhyNova />
       <OnlineHealthcare />
       <AvailableSpecialists />
+      <BuyMedicines />
     </div>
   );
 };
