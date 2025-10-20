@@ -8,7 +8,7 @@ const Container = ({
   addClass?: string;
 }) => {
   return (
-    <div className={`px-2 md:my-12 ${addClass}`}>
+    <div className={`px-2 md:my-28 ${addClass}`}>
       <div className="container mx-auto">{children}</div>
     </div>
   );
