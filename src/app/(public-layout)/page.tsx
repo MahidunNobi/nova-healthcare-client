@@ -3,6 +3,7 @@ import BuyMedicines from "@/components/Home/BuyMedicines";
 import HeroSlider from "@/components/Home/HeroSlider";
 import HomeDiagnosticService from "@/components/Home/HomeDiagnosticService";
 import OnlineHealthcare from "@/components/Home/OnlineHealthcare";
+import Partners from "@/components/Home/Partners";
 import Searchbar from "@/components/Home/Searchbar";
 import Services from "@/components/Home/Services";
 import Stats from "@/components/Home/Stats";
@@ -21,6 +22,7 @@ const HomePage = () => {
       <AvailableSpecialists />
       <BuyMedicines />
       <HomeDiagnosticService />
+      <Partners />
     </div>
   );
 };
