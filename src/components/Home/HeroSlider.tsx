@@ -13,7 +13,7 @@ import Image from "next/image";
 
 const HeroSlider = () => {
   return (
-    <Container>
+    <Container addClass="my-0! md:my-24">
       <div className="my-4">
         <Swiper
           pagination={true}
